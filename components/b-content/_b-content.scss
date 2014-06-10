@@ -1,0 +1,218 @@
+/**********************************SECTION SERVICES****************************/
+.section-services {
+  background-image: url('../../images/ser-bg.png');
+  background-position: center center;
+  position: relative;
+  top: 80px;
+  width: 100%!important;
+  .content-wrapper {
+    padding-top: 0px;
+    padding-bottom: 5px;
+  }
+}
+.section-services .services-box {
+  text-align: center;
+  position: relative;
+}
+.section-services .services-box .bottom {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 100%;
+}
+.section-services .services-box h3 {
+  color: white;
+  font-family: 'proxima_nova_rgbold';
+  font-size: 20px;
+  line-height: 31px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+.section-services .services-box h4 {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  font-weight: 300;
+  width: 68%;
+  margin: 10px 0;
+  padding-bottom: 25px;
+  margin-top: 5px;
+  display: inline-block;
+}
+.section-services .services-box:hover .services-diamond {
+  margin-top: 10px;
+  height: 100px;
+}
+.section-services .services-box:hover .services-diamond .services-tail {
+  height: 50px;
+}
+.section-services .services-box:hover .services-diamond .content {
+  background-color: #8cbf27;
+}
+.section-services .services-box:hover .services-diamond .bottom-diamond {
+  background-color: #00cb66;
+}
+.services-diamond {
+  width: 141px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-image: url('../../images/services-border.png');
+  display: inline-block;
+  margin-top: 20px;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.services-diamond .services-tail {
+  position: absolute;
+  width: 3px;
+  bottom: 5px;
+  height: 55px;
+  left: 69px;
+  background-color: #333333;
+
+}
+.services-diamond .bottom-diamond {
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  left: 66px;
+  bottom: -4px;
+  border: solid 2px #333;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.services-diamond .content {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: transparent;
+  margin-left: 27px;
+  margin-top: 28px;
+  min-height: 86px;
+  width: 87px;
+  -webkit-border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px;
+  -moz-background-clip: padding;
+  border-radius: 3px;
+  background-clip: padding-box;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.services-diamond .services-icon {
+  position: absolute;
+  width: 100%;
+  height: 135px;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.services-diamond .services-icon.design {
+  background-image: url('../../images/services-design.png');
+}
+.services-diamond .services-icon.coding {
+  background-image: url('../../images/services-coding.png');
+}
+.services-diamond .services-icon.support {
+  background-image: url('../../images/services-support.png');
+}
+.services-diamond .services-icon.mob {
+  background-image: url('../../images/mob.png');
+}
+.services-diamond .services-icon.gam {
+  background-image: url('../../images/gam.png');
+}
+.services-diamond .services-icon.www {
+  background-image: url('../../images/www.png');
+}
+.services-diamond .services-icon.kin {
+  background-image: url('../../images/kin.png');
+}
+.services-diamond .services-icon.wid {
+  background-image: url('../../images/wid.png');
+}
+
+/**************************************BLOCK CONTENT*****************************/
+.b-content-post {
+  position: relative;
+  top: 80px;
+  width: 1140px;
+  height: auto;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 2px 30px 0px rgba(50, 50, 50, 0.75);
+  .b-content-post_text {
+    text-align: justify;
+    margin-top: 0px;
+    font-family: 'proxima_novalight';
+    line-height: 22px;
+    font-size: 18px;
+  }
+  .b-content-post_header {
+    font-size: 25px!important;
+  }
+  .b-content-post_image {
+    img {
+      max-width: 485px;
+    }
+    .miniImg {
+      max-width: 80%;
+    }
+  }
+}
+
+
+
+
+
+.b-partners {
+  margin-top: 150px;
+  .b-partners-coworking {
+    height: auto;
+    .b-partners-coworking_elem {
+        width: 468px;
+      height: 325px;
+      background-image: url("../../images/wspolpraca.png");
+      background-repeat: no-repeat ;
+      padding: 40px 20px 10px 20px;
+      .b-partners-coworking_elem-header {
+
+      }
+      .b-partners-coworking_elem-text {
+
+      }
+      .b-partners-coworking_elem-img {
+        max-height: 80px;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+
+

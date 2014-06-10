@@ -1,0 +1,1 @@
+Easy to use html/css-ready folder for new projects. Just install Gulp to make those gulpfiles compile the project in real time.

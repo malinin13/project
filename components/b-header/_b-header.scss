@@ -1,0 +1,115 @@
+.b-menu-wrapper {
+  margin: 0 auto;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background: url('../../images/blackorchid.png');
+  height: 80px;
+  top: 0;
+  border-bottom: 1px solid #393939;
+  box-shadow: 0 1px 8px 0px black;
+  -moz-box-shadow: 0px 1px 8px 0px black;
+  -webkit-box-shadow: 0px 1px 8px 0px black;
+
+}
+
+.b-menu-inner {
+  margin: 0 auto;
+  list-style: none;
+  position: relative;
+  width: 1140px;
+  height: 55px;
+  line-height: 80px;
+  text-align: right;
+  li {
+    list-style: none;
+    display: inline-block;
+    padding: 6px 10px 4px 10px;
+
+    line-height: 20px;
+    font-weight: 100;
+    a {
+      font-size: 14px;
+      text-decoration: none;
+      color: #bbb;
+
+    }
+    }
+}
+
+#magic-line {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100px;
+  height: 2px;
+  background: #8cbf27;
+  padding: 0;
+  margin-left: 0;
+}
+
+.b-menu-inner_logo {
+  display: inline-block;
+  img {
+    max-width: 120px;
+  }
+}
+
+
+
+/********************************************SLIDER*****************************/
+.sl-slider-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.sl-slider-wrapper {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 80px;
+}
+
+.sl-slider h2,
+.sl-slider blockquote {
+  padding: 0px 30px 10px 30px;
+  width: 80%;
+  max-width: 1140px;
+  color: #fff;
+  margin: 0px auto;
+  position: relative;
+  z-index: 100;
+  background: rgba(0,0,0, 0.4);
+}
+
+.sl-slider h2 {
+  font-size: 80px;
+  margin-top: 80px;
+  font-family: 'proxima_nova_rgbold';
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+}
+
+.sl-slider blockquote {
+  font-size: 26px;
+  text-align: center;
+  font-family: 'proxima_nova_rgbold';
+  padding-top: 30px;
+  font-weight: 300;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+}
+
+.sl-slider blockquote cite {
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding-top: 30px;
+  display: inline-block;
+}
+/**********************************SLIDER********************************/

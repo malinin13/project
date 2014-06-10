@@ -1,0 +1,51 @@
+.b-footer {
+  background-image: url('../../images/blackorchid.png');
+  height: auto;
+  color: white;
+  .b-footer-biuro_header {
+      font-size: 25px;
+      font-weight: bold;
+  }
+  .b-footer-biuro_text {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 25px;
+  }
+  .b-footer-biuro_img {
+    padding: 10px 15px 0 0;
+  }
+}
+
+.b-belongTo {
+  img {
+    height: 55px;
+  }
+  padding-bottom: 20px;
+}
+
+.b-socials {
+
+  .youtube-social {
+
+    background-image: url("../../images/sprites/facebook.png");
+    &:hover {
+      cursor: pointer;
+      background-image: url("../../images/sprites/facebook_hover.png");
+    }
+  }
+  .fb-social {
+    position: relative;
+    left: -45px;
+    background-image: url("../../images/sprites/youtube.png");
+    &:hover {
+      cursor: pointer;
+      background-image: url("../../images/sprites/youtube_hover.png");
+    }
+  }
+  .fb-social, .youtube-social {
+    width: 47px;
+    height: 47px;
+    display: inline-block;
+    margin-top: 65px;
+  }
+}
