@@ -1,12 +1,10 @@
 var gulp            = require('gulp'),
     minifyCss       = require('gulp-minify-css'),
     sass            = require('gulp-sass'),
-    plumber          = require('gulp-plumber'),
-    notify          = require('gulp-notify'),
-    watch         = require('gulp-watch'),
+    watch           = require('gulp-watch'),
     compass         = require('gulp-compass'),
     concat          = require('gulp-concat'),
-    var minifyHTML = require('gulp-minify-html');
+    minifyHTML      = require('gulp-minify-html');
 
 
 
